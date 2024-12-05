@@ -5,7 +5,7 @@ use libloading::{Library, Symbol};
 use log::{error, info};
 use reqwest::blocking::Response;
 use serde::Deserialize;
-use solana_geyser_plugin_interface::geyser_plugin_interface::GeyserPlugin;
+use agave_geyser_plugin_interface::geyser_plugin_interface::GeyserPlugin;
 use plerkle_snapshot::archived::ArchiveSnapshotExtractor;
 use plerkle_snapshot::parallel::AppendVecConsumer;
 use plerkle_snapshot::unpacked::UnpackedSnapshotExtractor;
